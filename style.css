@@ -3,12 +3,6 @@
     src: url(fonts/digital.ttf); /* Путь к файлу со шрифтом */
    }
 
-.calc-container {
-   display: flex;
-    /* flex-direction: column;
-    flex-wrap: nowrap;  */
-}
-
 .calc-container__frame {
     display: flex;
     flex-direction: column;
@@ -30,12 +24,14 @@
     font-family: 'digital',serif;
     font-weight: bold;
     letter-spacing: 2px;
+    height: 46px;
 }
 
 .calc-container__buttons {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
+    cursor: default;
 }
 
 .row {
